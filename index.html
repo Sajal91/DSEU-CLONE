@@ -1,10 +1,12 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../CSS/class.css">
 <style>
-th{
+    th{
     padding-top: 15px;
     padding-inline: 100px;
     background-color: blueviolet;
@@ -38,14 +40,14 @@ table{
 }
 .t_data,.t_data_2{
     background-color: rgb(242, 255, 0);
-    padding-block: 10px;
 }
 .t_data{
     padding-right: 50px;
+    padding-block: 10px;
     padding-left: 6px;
 }
 #submit{
-    background-color: chartreuse;
+    background-color: white;
     padding-inline: 30px;
     padding-block: 5px;
     border-radius: 10px;
@@ -54,10 +56,10 @@ table{
 }
 #submit:hover{
     cursor: pointer;
-    background-color: blanchedalmond;
+    background-color: #F56702;
 }
 .box{
-    width: 500px;
+    width: 1000px;
     height:30px;
 }
 #t_data_gender{
@@ -69,6 +71,17 @@ table{
 textarea{
     width: 100%;
     height: 100%;
+}
+.field{
+    width:1161px;
+    border-radius: 5px;
+    border-color: rgb(255, 0, 162);
+    border-width: 10px;
+    border-style:outset;
+}
+img{
+    border: 5px black solid;
+    border-radius:10px;
 }
 </style>
 </head>
@@ -85,7 +98,7 @@ textarea{
     </nav>
     <br>
     <center>
-        <img src="../IMAGE/img1.jpg" width="1383px" height="600px" alt="DSEU">
+        <img src="../IMAGE/img1.jpg" width="1370px" height="600px" alt="DSEU">
     </center>
     <br>
     <center>
@@ -115,7 +128,8 @@ textarea{
                 </td>
                 <td id="a">
                     <h4>
-                        <center><a href="https//dseu.ac.in/undergraduate-programs/">BCA</a></center>
+                        <center><a href="https://dseu.ac.in/courses/bca-bachelor-of-computer-application/">BCA</a>
+                        </center>
                     </h4>
                 </td>
                 <td id="b">
@@ -142,7 +156,9 @@ textarea{
                 </td>
                 <td id="e">
                     <h4>
-                        <center><a href="https//dseu.ac.in/undergraduate-programs/">BBA</a></center>
+                        <center><a
+                                href="https://dseu.ac.in/courses/bba-operations-and-business-process-management/">BBA</a>
+                        </center>
                     </h4>
                 </td>
                 <td id="f">
@@ -169,7 +185,9 @@ textarea{
                 </td>
                 <td id="i">
                     <h4>
-                        <center><a href="https//dseu.ac.in/undergraduate-programs/">BCOM</a></center>
+                        <center><a
+                                href="https://dseu.ac.in/courses/bba-banking-financial-services-and-insurance/">BBA(BFSI)</a>
+                        </center>
                     </h4>
                 </td>
                 <td id="j">
@@ -196,7 +214,7 @@ textarea{
                 </td>
                 <td id="a">
                     <h4>
-                        <center><a href="https//dseu.ac.in/undergraduate-programs/">BCOM(H)</a></center>
+                        <center><a href="https://dseu.ac.in/courses/bms-e-commerce-operations/">BMS(E-COM)</a></center>
                     </h4>
                 </td>
                 <td id="a">
@@ -224,9 +242,11 @@ textarea{
     <form>
         <fieldset class="field">
             <legend>
-                <h1>Fill Out The Form Below</h1>
+                <marquee direction="down">
+                    <h1>Fill Out The Form Below</h1>
+                </marquee>
             </legend>
-            <table border="10px" id="table-2">
+            <table border="3px" id="table-2">
                 <tr>
                     <td class="t_data">
                         <b>First Name </b>
@@ -288,7 +308,7 @@ textarea{
 
                 <tr>
                     <td class="t_data">
-                        <b>Date of Birth </b>
+                        <b>Date of Birth</b>
                     </td>
 
                     <td class="t_data_2">
@@ -324,4 +344,5 @@ textarea{
         </fieldset>
     </form>
 </body>
+
 </html>
